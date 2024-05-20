@@ -45,3 +45,27 @@ console.log(typeof myFunction);
 // Object   =>  (native and does not implement [[Call]])	"object"
 // Object   =>  (native or host and does implement [[Call]])	"function"
 // Object   =>  (host and does not implement [[Call]])	Implementation-defined except may not be "undefined", "boolean", "number", or "string".
+
+//*****************************************************************************
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myName = "FzShaikh";
+
+let anotherName = Faizi;
+anotherName = "ShaikhFaizi";
+
+console.log(myName);
+console.log(anotherName);
+
+let userOne = {
+  email: "xyz@gmail.com",
+  upi: "user@ybl",
+};
+
+let userTwo = userOne;
+
+userTwo.email = "faizi@google.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
