@@ -41,7 +41,7 @@ console.log(typeof myFunction);
 // Null	    =>  "object"
 // Boolean  =>  "boolean"
 // Number   =>  "number"
-// String	=>  "string"
+// String	  =>  "string"
 // Object   =>  (native and does not implement [[Call]])	"object"
 // Object   =>  (native or host and does implement [[Call]])	"function"
 // Object   =>  (host and does not implement [[Call]])	Implementation-defined except may not be "undefined", "boolean", "number", or "string".
