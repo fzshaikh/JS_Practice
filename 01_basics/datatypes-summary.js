@@ -18,7 +18,7 @@ console.log(id === anotherId);
 
 // Reference (Non primitive)
 
-//Array, Objects, Functions
+// Array, Objects, Functions
 
 const heros = ["Shaktiman", "Superman", "Spiderman"];
 let myObj = {
@@ -36,12 +36,12 @@ console.log(typeof myFunction);
 
 // typeof Operator Results
 
-// Type of val	         Result
-// Undefined	=>       "undefined"
-// Null	        =>       "object"
-// Boolean	    =>       "boolean"
-// Number	    =>       "number"
-// String	    =>       "string"
-// Object       =>       (native and does not implement [[Call]])	"object"
-// Object       =>       (native or host and does implement [[Call]])	"function"
-// Object       =>       (host and does not implement [[Call]])	Implementation-defined except may not be "undefined", "boolean", "number", or "string".
+// Type of val	  Result
+// Undefine =>  "undefined"
+// Null	    =>  "object"
+// Boolean  =>  "boolean"
+// Number   =>  "number"
+// String	=>  "string"
+// Object   =>  (native and does not implement [[Call]])	"object"
+// Object   =>  (native or host and does implement [[Call]])	"function"
+// Object   =>  (host and does not implement [[Call]])	Implementation-defined except may not be "undefined", "boolean", "number", or "string".
